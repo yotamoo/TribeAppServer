@@ -1,0 +1,1133 @@
+{
+    "asset": {
+        "copyright": "(C)2021 Designer",
+        "generator": "maya2glTF v1.2.1 03f669e0d38e",
+        "version": "2.0"
+    },
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "scene": 0,
+    "nodes": [
+        {
+            "name": "Model",
+            "children": [
+                11,
+                8,
+                1
+            ]
+        },
+        {
+            "name": "Temples",
+            "children": [
+                5,
+                2
+            ]
+        },
+        {
+            "name": "TempleRight",
+            "children": [
+                4,
+                3
+            ],
+            "translation": [
+                -6.286468029022217,
+                1.592083215713501,
+                -1.086499571800232
+            ]
+        },
+        {
+            "name": "TempleTrimRight",
+            "mesh": 0,
+            "translation": [
+                6.286468029022217,
+                -1.592083215713501,
+                1.086499571800232
+            ]
+        },
+        {
+            "name": "TemplePartRight",
+            "mesh": 1,
+            "translation": [
+                6.286468029022217,
+                -1.592083215713501,
+                1.086499571800232
+            ]
+        },
+        {
+            "name": "TempleLeft",
+            "children": [
+                7,
+                6
+            ],
+            "translation": [
+                6.286468029022217,
+                1.592083215713501,
+                -1.086499571800232
+            ]
+        },
+        {
+            "name": "TempleTrimLeft",
+            "mesh": 2,
+            "translation": [
+                -6.286468029022217,
+                -1.592083215713501,
+                1.086499571800232
+            ]
+        },
+        {
+            "name": "TemplePartLeft",
+            "mesh": 3,
+            "translation": [
+                -6.286468029022217,
+                -1.592083215713501,
+                1.086499571800232
+            ]
+        },
+        {
+            "name": "Lenses",
+            "children": [
+                10,
+                9
+            ]
+        },
+        {
+            "name": "LensRight",
+            "mesh": 4
+        },
+        {
+            "name": "LensLeft",
+            "mesh": 5
+        },
+        {
+            "name": "Frame",
+            "children": [
+                13,
+                12
+            ]
+        },
+        {
+            "name": "FrameMetalParts",
+            "mesh": 6
+        },
+        {
+            "name": "Eyewires",
+            "mesh": 7
+        }
+    ],
+    "meshes": [
+        {
+            "name": "TempleTrimRightShape",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 1,
+                        "POSITION": 2,
+                        "TANGENT": 3,
+                        "TEXCOORD_0": 4
+                    },
+                    "indices": 0,
+                    "mode": 4,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "TemplePartRightShape",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 6,
+                        "POSITION": 7,
+                        "TANGENT": 8,
+                        "TEXCOORD_0": 9
+                    },
+                    "indices": 5,
+                    "mode": 4,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "TempleTrimLeftShape",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 11,
+                        "POSITION": 12,
+                        "TANGENT": 13,
+                        "TEXCOORD_0": 14
+                    },
+                    "indices": 10,
+                    "mode": 4,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "TemplePartLeftShape",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 16,
+                        "POSITION": 17,
+                        "TANGENT": 18,
+                        "TEXCOORD_0": 19
+                    },
+                    "indices": 15,
+                    "mode": 4,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "LensRightShape",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 21,
+                        "POSITION": 22,
+                        "TANGENT": 23,
+                        "TEXCOORD_0": 24
+                    },
+                    "indices": 20,
+                    "mode": 4,
+                    "material": 1
+                }
+            ]
+        },
+        {
+            "name": "LensLeftShape",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 26,
+                        "POSITION": 27,
+                        "TANGENT": 28,
+                        "TEXCOORD_0": 29
+                    },
+                    "indices": 25,
+                    "mode": 4,
+                    "material": 1
+                }
+            ]
+        },
+        {
+            "name": "FrameMetalPartsShape",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 31,
+                        "POSITION": 32,
+                        "TANGENT": 33,
+                        "TEXCOORD_0": 34
+                    },
+                    "indices": 30,
+                    "mode": 4,
+                    "material": 2
+                }
+            ]
+        },
+        {
+            "name": "EyewiresShape",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 36,
+                        "POSITION": 37,
+                        "TANGENT": 38,
+                        "TEXCOORD_0": 39
+                    },
+                    "indices": 35,
+                    "mode": 4,
+                    "material": 0
+                }
+            ]
+        }
+    ],
+    "materials": [
+        {
+            "name": "Frame_Mat",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicFactor": 1.0,
+                "roughnessFactor": 1.0,
+                "metallicRoughnessTexture": {
+                    "index": 1
+                }
+            },
+            "emissiveFactor": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "normalTexture": {
+                "index": 2
+            },
+            "occlusionTexture": {
+                "index": 1
+            }
+        },
+        {
+            "name": "Glass_Mat",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicFactor": 1.0,
+                "roughnessFactor": 1.0,
+                "metallicRoughnessTexture": {
+                    "index": 1
+                }
+            },
+            "emissiveFactor": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "normalTexture": {
+                "index": 2
+            },
+            "occlusionTexture": {
+                "index": 1
+            },
+            "alphaMode": "BLEND",
+            "doubleSided": true
+        },
+        {
+            "name": "Metal_Mat",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicFactor": 1.0,
+                "roughnessFactor": 1.0,
+                "metallicRoughnessTexture": {
+                    "index": 1
+                }
+            },
+            "emissiveFactor": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "normalTexture": {
+                "index": 2
+            },
+            "occlusionTexture": {
+                "index": 1
+            }
+        }
+    ],
+    "textures": [
+        {
+            "sampler": 0,
+            "source": 0
+        },
+        {
+            "sampler": 0,
+            "source": 1
+        },
+        {
+            "sampler": 0,
+            "source": 2
+        }
+    ],
+    "images": [
+        {
+            "uri": "3D_square_male_Wood_baseColor.png"
+        },
+        {
+            "uri": "3D_square_male_Wood_occlusionRoughnessMetallic.png"
+        },
+        {
+            "uri": "3D_square_male_Wood_normal.png"
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9987,
+            "wrapS": 10497,
+            "wrapT": 10497
+        }
+    ],
+    "accessors": [
+        {
+            "name": "TempleTrimRightShape#0/indices",
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5123,
+            "count": 984,
+            "max": [
+                193
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "TempleTrimRightShape#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 194,
+            "max": [
+                0.9857404828071594,
+                0.9595759510993958,
+                0.6464610695838928
+            ],
+            "min": [
+                -0.9851070642471314,
+                -0.9981632828712465,
+                -0.9982872605323792
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "TempleTrimRightShape#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 2328,
+            "componentType": 5126,
+            "count": 194,
+            "max": [
+                -5.18501615524292,
+                1.714585304260254,
+                -10.30179214477539
+            ],
+            "min": [
+                -6.966780662536621,
+                -1.0111303329467774,
+                -14.443875312805176
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "TempleTrimRightShape#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 194,
+            "max": [
+                0.9976954460144044,
+                0.6830952763557434,
+                0.9960927367210388,
+                -1.0
+            ],
+            "min": [
+                -0.605198323726654,
+                -0.4000326097011566,
+                -0.9935685396194458,
+                -1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "TempleTrimRightShape#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 194,
+            "max": [
+                0.9872288107872008,
+                0.9826210737228394
+            ],
+            "min": [
+                0.011515319347381592,
+                0.6672334671020508
+            ],
+            "type": "VEC2"
+        },
+        {
+            "name": "TemplePartRightShape#0/indices",
+            "bufferView": 0,
+            "byteOffset": 1968,
+            "componentType": 5123,
+            "count": 744,
+            "max": [
+                151
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "TemplePartRightShape#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 4656,
+            "componentType": 5126,
+            "count": 152,
+            "max": [
+                0.9998230934143066,
+                0.989501953125,
+                0.99888676404953
+            ],
+            "min": [
+                -0.9999244809150696,
+                -0.9571818113327026,
+                -0.0461738258600235
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "TemplePartRightShape#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 6480,
+            "componentType": 5126,
+            "count": 152,
+            "max": [
+                -6.464011669158936,
+                1.746536374092102,
+                -0.7637161016464233
+            ],
+            "min": [
+                -6.9686150550842289,
+                1.0047993659973145,
+                -10.35800838470459
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "TemplePartRightShape#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 3104,
+            "componentType": 5126,
+            "count": 152,
+            "max": [
+                0.048449452966451648,
+                0.5385085940361023,
+                0.9999999403953552,
+                -1.0
+            ],
+            "min": [
+                -0.9980992078781128,
+                -0.4813338816165924,
+                -0.9999985098838806,
+                -1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "TemplePartRightShape#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 1552,
+            "componentType": 5126,
+            "count": 152,
+            "max": [
+                0.9720369577407836,
+                0.9136012196540833
+            ],
+            "min": [
+                0.019208792597055436,
+                0.6655545234680176
+            ],
+            "type": "VEC2"
+        },
+        {
+            "name": "TempleTrimLeftShape#0/indices",
+            "bufferView": 0,
+            "byteOffset": 3456,
+            "componentType": 5123,
+            "count": 984,
+            "max": [
+                193
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "TempleTrimLeftShape#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 8304,
+            "componentType": 5126,
+            "count": 194,
+            "max": [
+                0.9851070642471314,
+                0.9595758318901062,
+                0.6464610695838928
+            ],
+            "min": [
+                -0.9857404828071594,
+                -0.9981632828712465,
+                -0.9982872605323792
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "TempleTrimLeftShape#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 10632,
+            "componentType": 5126,
+            "count": 194,
+            "max": [
+                6.966780662536621,
+                1.714585304260254,
+                -10.30179214477539
+            ],
+            "min": [
+                5.18501615524292,
+                -1.0111303329467774,
+                -14.443875312805176
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "TempleTrimLeftShape#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 5536,
+            "componentType": 5126,
+            "count": 194,
+            "max": [
+                0.605198323726654,
+                0.6830952763557434,
+                0.9960927367210388,
+                1.0
+            ],
+            "min": [
+                -0.9976954460144044,
+                -0.400032639503479,
+                -0.9935685396194458,
+                1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "TempleTrimLeftShape#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 2768,
+            "componentType": 5126,
+            "count": 194,
+            "max": [
+                0.9872288107872008,
+                0.9826210737228394
+            ],
+            "min": [
+                0.011515319347381592,
+                0.6672334671020508
+            ],
+            "type": "VEC2"
+        },
+        {
+            "name": "TemplePartLeftShape#0/indices",
+            "bufferView": 0,
+            "byteOffset": 5424,
+            "componentType": 5123,
+            "count": 744,
+            "max": [
+                151
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "TemplePartLeftShape#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 12960,
+            "componentType": 5126,
+            "count": 152,
+            "max": [
+                0.9999244809150696,
+                0.989501953125,
+                0.99888676404953
+            ],
+            "min": [
+                -0.9998229742050172,
+                -0.9571818113327026,
+                -0.0461738258600235
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "TemplePartLeftShape#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 14784,
+            "componentType": 5126,
+            "count": 152,
+            "max": [
+                6.9686150550842289,
+                1.746536374092102,
+                -0.7637161016464233
+            ],
+            "min": [
+                6.464011669158936,
+                1.0047993659973145,
+                -10.35800838470459
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "TemplePartLeftShape#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 8640,
+            "componentType": 5126,
+            "count": 152,
+            "max": [
+                0.9980992078781128,
+                0.5385085940361023,
+                0.9999999403953552,
+                1.0
+            ],
+            "min": [
+                -0.048449452966451648,
+                -0.4813338816165924,
+                -0.9999985098838806,
+                1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "TemplePartLeftShape#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 4320,
+            "componentType": 5126,
+            "count": 152,
+            "max": [
+                0.9720369577407836,
+                0.9136012196540833
+            ],
+            "min": [
+                0.019208792597055436,
+                0.6655545234680176
+            ],
+            "type": "VEC2"
+        },
+        {
+            "name": "LensRightShape#0/indices",
+            "bufferView": 0,
+            "byteOffset": 6912,
+            "componentType": 5123,
+            "count": 252,
+            "max": [
+                55
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "LensRightShape#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 16608,
+            "componentType": 5126,
+            "count": 56,
+            "max": [
+                1.260000033198594e-7,
+                -0.10787981748580933,
+                0.9935381412506104
+            ],
+            "min": [
+                -0.26174968481063845,
+                -0.11431317031383516,
+                0.9589964151382446
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "LensRightShape#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 17280,
+            "componentType": 5126,
+            "count": 56,
+            "max": [
+                -0.8707622289657593,
+                1.7261838912963868,
+                0.3399065136909485
+            ],
+            "min": [
+                -5.961650371551514,
+                -1.8836462497711184,
+                -0.4153600335121155
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "LensRightShape#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 11072,
+            "componentType": 5126,
+            "count": 56,
+            "max": [
+                -0.9648160338401794,
+                0.05504167079925537,
+                0.002899697981774807,
+                -1.0
+            ],
+            "min": [
+                -0.9996742010116576,
+                0.025360360741615297,
+                -0.257099986076355,
+                -1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "LensRightShape#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 5536,
+            "componentType": 5126,
+            "count": 56,
+            "max": [
+                0.8432681560516357,
+                0.3565061092376709
+            ],
+            "min": [
+                0.5173115730285645,
+                0.125455379486084
+            ],
+            "type": "VEC2"
+        },
+        {
+            "name": "LensLeftShape#0/indices",
+            "bufferView": 0,
+            "byteOffset": 7416,
+            "componentType": 5123,
+            "count": 252,
+            "max": [
+                55
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "LensLeftShape#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 17952,
+            "componentType": 5126,
+            "count": 56,
+            "max": [
+                0.2617497444152832,
+                -0.10787923634052277,
+                0.9935381412506104
+            ],
+            "min": [
+                -9.200000050668679e-8,
+                -0.11431317031383516,
+                0.9589964151382446
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "LensLeftShape#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 18624,
+            "componentType": 5126,
+            "count": 56,
+            "max": [
+                5.961650848388672,
+                1.7261838912963868,
+                0.3399065136909485
+            ],
+            "min": [
+                0.8707622289657593,
+                -1.8836462497711184,
+                -0.4153600335121155
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "LensLeftShape#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 11968,
+            "componentType": 5126,
+            "count": 56,
+            "max": [
+                0.9996742010116576,
+                0.05504169687628746,
+                0.0028996989130973818,
+                1.0
+            ],
+            "min": [
+                0.9648160338401794,
+                0.025360360741615297,
+                -0.2571000158786774,
+                1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "LensLeftShape#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 5984,
+            "componentType": 5126,
+            "count": 56,
+            "max": [
+                0.8432681560516357,
+                0.3565061092376709
+            ],
+            "min": [
+                0.5173115730285645,
+                0.125455379486084
+            ],
+            "type": "VEC2"
+        },
+        {
+            "name": "FrameMetalPartsShape#0/indices",
+            "bufferView": 0,
+            "byteOffset": 7920,
+            "componentType": 5123,
+            "count": 1032,
+            "max": [
+                711
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "FrameMetalPartsShape#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 19296,
+            "componentType": 5126,
+            "count": 712,
+            "max": [
+                0.9953628182411194,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -0.9953629374504088,
+                -1.0,
+                -1.0
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "FrameMetalPartsShape#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 27840,
+            "componentType": 5126,
+            "count": 712,
+            "max": [
+                6.46907901763916,
+                1.592083215713501,
+                -0.6685823798179627
+            ],
+            "min": [
+                -6.46907901763916,
+                1.3021934032440186,
+                -1.2562605142593384
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "FrameMetalPartsShape#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 12864,
+            "componentType": 5126,
+            "count": 712,
+            "max": [
+                0.9999988675117492,
+                0.2692773044109345,
+                0.9907892942428588,
+                1.0
+            ],
+            "min": [
+                -0.9999988675117492,
+                -0.4075477123260498,
+                -0.9999764561653136,
+                -1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "FrameMetalPartsShape#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 6432,
+            "componentType": 5126,
+            "count": 712,
+            "max": [
+                0.25228992104530337,
+                0.6349191069602966
+            ],
+            "min": [
+                0.06076298654079437,
+                0.1515633463859558
+            ],
+            "type": "VEC2"
+        },
+        {
+            "name": "EyewiresShape#0/indices",
+            "bufferView": 0,
+            "byteOffset": 9984,
+            "componentType": 5123,
+            "count": 21408,
+            "max": [
+                3886
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "EyewiresShape#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 36384,
+            "componentType": 5126,
+            "count": 3887,
+            "max": [
+                0.9997592568397522,
+                0.9998683333396912,
+                0.9999960660934448
+            ],
+            "min": [
+                -0.999759316444397,
+                -0.9998505115509032,
+                -0.9999962449073792
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "EyewiresShape#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 83028,
+            "componentType": 5126,
+            "count": 3887,
+            "max": [
+                6.809651374816895,
+                1.9394268989562989,
+                0.6482053995132446
+            ],
+            "min": [
+                -6.809651374816895,
+                -2.0663092136383058,
+                -0.8164404034614563
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "EyewiresShape#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 24256,
+            "componentType": 5126,
+            "count": 3887,
+            "max": [
+                0.9999996423721314,
+                0.9856685400009156,
+                0.997449278831482,
+                1.0
+            ],
+            "min": [
+                -0.9999995827674866,
+                -0.999958038330078,
+                -0.9996533393859864,
+                -1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "EyewiresShape#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 12128,
+            "componentType": 5126,
+            "count": 3887,
+            "max": [
+                0.9924999475479126,
+                0.5236837863922119
+            ],
+            "min": [
+                0.01933157444000244,
+                0.010422587394714356
+            ],
+            "type": "VEC2"
+        }
+    ],
+    "bufferViews": [
+        {
+            "name": "square_wood/data/indices-2",
+            "buffer": 0,
+            "byteOffset": 259344,
+            "byteLength": 52800,
+            "target": 34963
+        },
+        {
+            "name": "square_wood/data/vertices-12",
+            "buffer": 0,
+            "byteOffset": 86448,
+            "byteLength": 129672,
+            "byteStride": 12,
+            "target": 34962
+        },
+        {
+            "name": "square_wood/data/vertices-16",
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 86448,
+            "byteStride": 16,
+            "target": 34962
+        },
+        {
+            "name": "square_wood/data/vertices-8",
+            "buffer": 0,
+            "byteOffset": 216120,
+            "byteLength": 43224,
+            "byteStride": 8,
+            "target": 34962
+        }
+    ],
+    "buffers": [
+        {
+            "name": "square_wood/data",
+            "byteLength": 312144,
+            "uri": "square_wood0.bin"
+        }
+    ]
+}
