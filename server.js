@@ -2,6 +2,10 @@ var express = require('express');
 var app = express();
 var glob = require("glob")
 
+app.get('/', function (req, res) {
+  res.send('Hello World');
+});
+
 app.use('/fetch', express.static('files'))
 
 app.get('/list', function (req, res) {
@@ -10,7 +14,9 @@ app.get('/list', function (req, res) {
   });
 });
 
-var server = app.listen(8080, function () {
+const port = process.env.PORT || 80
+
+var server = app.listen(port, function () {
   var host = server.address().address;
   var port = server.address().port;
   console.log('Example app listening at http://%s:%s', host, port);
